@@ -1970,6 +1970,12 @@
 				<key>rtc-blacklist</key>
 				<data>
 				</data>
+				<key>revcpu</key>
+				<integer>1</integer>
+				<key>revcpuname</key>
+				<string>AMD Ryzen 5 PRO 3500U</string>
+				<key>revpatch</key>
+				<string>sbvmm,cpuname</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -1990,7 +1996,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -no_compat_check alcid=86 npci=0x3000 revblock=media revpatch=sbvmm -NRedDPDelay -lilubetaall -alcbeta alcdelay=1000 shda-lang=en -btlfxallowanyaddr darkwake=0</string>
+				<string>-v keepsyms=1 debug=0x100 -no_compat_check alcid=86 npci=0x3000 revblock=media revpatch=sbvmm,cpuname -NRedDPDelay -lilubetaall -alcbeta alcdelay=1000 shda-lang=en -btlfxallowanyaddr darkwake=0 revcpu=1</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -2011,6 +2017,9 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
+				<string>revcpu</string>
+				<string>revcpuname</string>
+				<string>revpatch</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
