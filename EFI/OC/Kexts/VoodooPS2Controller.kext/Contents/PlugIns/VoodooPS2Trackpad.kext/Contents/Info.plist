@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G419</string>
+	<string>23H222</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Trackpad</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.3.5, Copyright Apple Computer, Inc. 2002-2003, mackerintel 2008, RehabMan 2012-2013</string>
+	<string>2.3.7, Copyright Apple Computer, Inc. 2002-2003, mackerintel 2008, RehabMan 2012-2013</string>
 	<key>CFBundleIdentifier</key>
 	<string>as.acidanthera.voodoo.driver.PS2Trackpad</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.3.5</string>
+	<string>2.3.7</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.3.5</string>
+	<string>2.3.7</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13F100</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>12.3</string>
+	<string>14.2</string>
 	<key>DTSDKBuild</key>
-	<string>21E226</string>
+	<string>23C53</string>
 	<key>DTSDKName</key>
-	<string>macosx12.3</string>
+	<string>macosx14.2</string>
 	<key>DTXcode</key>
-	<string>1341</string>
+	<string>1520</string>
 	<key>DTXcodeBuild</key>
-	<string>13F100</string>
+	<string>15C500b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALPS GlidePoint</key>
@@ -201,10 +201,8 @@
 					</dict>
 					<key>DisableDevice</key>
 					<false/>
-					<key>FingerZ</key>
-					<integer>15</integer>
 					<key>ForceTouchMode</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>MouseResolution</key>
 					<integer>3</integer>
 					<key>MouseSampleRate</key>
@@ -224,9 +222,9 @@
 					<key>TrackpointDividerY</key>
 					<integer>120</integer>
 					<key>TrackpointMultiplierX</key>
-					<integer>200</integer>
+					<integer>120</integer>
 					<key>TrackpointMultiplierY</key>
-					<integer>200</integer>
+					<integer>120</integer>
 					<key>USBMouseStopsTrackpad</key>
 					<integer>0</integer>
 					<key>UseHighRate</key>
@@ -331,15 +329,13 @@
 					<key>DisableLEDUpdating</key>
 					<false/>
 					<key>FingerZ</key>
-					<integer>5</integer>
+					<integer>15</integer>
 					<key>ForceTouchCustomDownThreshold</key>
 					<integer>90</integer>
 					<key>ForceTouchCustomPower</key>
 					<integer>8</integer>
 					<key>ForceTouchCustomUpThreshold</key>
 					<integer>20</integer>
-					<key>ForceTouchMode</key>
-					<integer>0</integer>
 					<key>ForceTouchPressureThreshold</key>
 					<integer>100</integer>
 					<key>HWResetOnStart</key>
@@ -350,18 +346,12 @@
 					<true/>
 					<key>QuietTimeAfterTyping</key>
 					<integer>0</integer>
+					<key>ResetOnWake</key>
+					<true/>
 					<key>SkipPassThrough</key>
-					<false/>
+					<true/>
 					<key>TrackpointDeadzone</key>
 					<integer>1</integer>
-					<key>TrackpointMultiplierX</key>
-					<integer>3</integer>
-					<key>TrackpointMultiplierY</key>
-					<integer>3</integer>
-					<key>TrackpointScrollMultiplierX</key>
-					<integer>3</integer>
-					<key>TrackpointScrollMultiplierY</key>
-					<integer>3</integer>
 					<key>USBMouseStopsTrackpad</key>
 					<integer>0</integer>
 					<key>WakeDelay</key>
@@ -428,21 +418,23 @@
 					<key>Thinkpad_ClickPad</key>
 					<dict>
 						<key>FingerZ</key>
-						<integer>5</integer>
+						<integer>15</integer>
 						<key>HWResetOnStart</key>
 						<true/>
 						<key>QuietTimeAfterTyping</key>
 						<integer>0</integer>
 						<key>ResetOnWake</key>
 						<true/>
+						<key>SkipPassThrough</key>
+						<true/>
 						<key>TrackpointMultiplierX</key>
-						<integer>3</integer>
+						<integer>2</integer>
 						<key>TrackpointMultiplierY</key>
-						<integer>3</integer>
+						<integer>2</integer>
 						<key>TrackpointScrollMultiplierX</key>
-						<integer>3</integer>
+						<integer>2</integer>
 						<key>TrackpointScrollMultiplierY</key>
-						<integer>3</integer>
+						<integer>2</integer>
 						<key>WakeDelay</key>
 						<integer>1000</integer>
 					</dict>
@@ -452,10 +444,6 @@
 						<integer>47</integer>
 						<key>HWResetOnStart</key>
 						<true/>
-						<key>ResetOnWake</key>
-						<true/>
-						<key>WakeDelay</key>
-						<integer>1000</integer>
 					</dict>
 					<key>X1CG3</key>
 					<string>Thinkpad_ClickPad</string>
@@ -470,11 +458,11 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.11</string>
+	<string>10.10</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.acidanthera.voodoo.driver.PS2Controller</key>
-		<string>2.3.5</string>
+		<string>2.3.7</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>1.0.0b1</string>
 		<key>com.apple.kpi.iokit</key>
