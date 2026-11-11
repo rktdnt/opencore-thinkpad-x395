@@ -439,12 +439,20 @@
 						<integer>3</integer>
 						<key>TrackpointScrollMultiplierY</key>
 						<integer>3</integer>
+						<key>WakeDelay</key>
+						<integer>1000</integer>
+						<key>ResetOnWake</key>
+						<true/>
 					</dict>
 					<key>Thinkpad_TrackPad</key>
 					<dict>
 						<key>FingerZ</key>
 						<integer>47</integer>
 						<key>HWResetOnStart</key>
+						<true/>
+						<key>WakeDelay</key>
+						<integer>1000</integer>
+						<key>ResetOnWake</key>
 						<true/>
 					</dict>
 					<key>X1CG3</key>
