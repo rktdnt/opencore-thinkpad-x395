@@ -1990,7 +1990,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -no_compat_check alcid=86 npci=0x3000 revblock=media revpatch=sbvmm -NRedDPDelay -lilubetaall -alcbeta alcdelay=1000 shda-lang=en -btlfxallowanyaddr</string>
+				<string>-v keepsyms=1 debug=0x100 -no_compat_check alcid=86 npci=0x3000 revblock=media revpatch=sbvmm -NRedDPDelay -lilubetaall -alcbeta alcdelay=1000 shda-lang=en -btlfxallowanyaddr darkwake=0</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
