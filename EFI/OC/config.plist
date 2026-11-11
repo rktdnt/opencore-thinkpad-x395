@@ -580,6 +580,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>IntelMKLFixup.kext</string>
+				<key>Comment</key>
+				<string>IntelMKLFixup.kext - Intel MKL patcher for AMD</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMKLFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string>VoodooPS2Controller.kext</string>
@@ -1967,15 +1985,15 @@
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
-				<key>rtc-blacklist</key>
-				<data>
-				</data>
 				<key>revcpu</key>
 				<integer>1</integer>
 				<key>revcpuname</key>
 				<string>AMD Ryzen 5 PRO 3500U</string>
 				<key>revpatch</key>
 				<string>sbvmm,cpuname</string>
+				<key>rtc-blacklist</key>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
